@@ -1,3 +1,9 @@
+
+
+
+change addresses and path as you see fit and pip install flask to get the catcher working
+##To Build
+
 Install Rust: If you haven't installed Rust already, you'll need to download and install it on your system. You can do this by following the instructions on the Rust website (https://www.rust-lang.org/tools/install).
 
 Create a new Rust project: Once you have Rust installed, you can create a new Rust project by running the following command in your terminal:
@@ -28,6 +34,3 @@ Release your project: If you're ready to release your Rust project, you can buil
 
 cargo build --release
 This will compile your Rust code with optimizations enabled and produce a binary executable file in the target/release directory.
-
-
-change addresses and path as you see fit and pip install flask to get the catcher working
