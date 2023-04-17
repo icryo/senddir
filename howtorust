@@ -1,0 +1,18 @@
+Installing Rust
+Go to the official Rust website (https://www.rust-lang.org/).
+Click on the "Install" tab at the top of the page.
+Choose your operating system (Windows, macOS, or Linux).
+Follow the instructions provided on the website for your operating system.
+Verify that Rust has been installed correctly by opening a terminal or command prompt and typing rustc --version. You should see a message with the version number of Rust.
+Building a Project with Cargo
+Open a terminal or command prompt.
+Create a new directory for your project by typing mkdir my_project.
+Change into the new directory by typing cd my_project.
+Initialize a new Rust project using Cargo by typing cargo init.
+Open the Cargo.toml file in your favorite text editor.
+Modify the [package] section of the file to include your project's name, version, and description.
+Add any necessary dependencies to the [dependencies] section of the file. For example, if you want to use the rand crate, you would add rand = "0.8.4" to the [dependencies] section.
+Write your Rust code in the src/main.rs file.
+Use Cargo to build your project by typing cargo build.
+If there are no errors, you should see a message indicating that the build was successful.
+Run your project by typing cargo run.
