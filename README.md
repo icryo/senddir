@@ -30,4 +30,4 @@ cargo build --release
 This will compile your Rust code with optimizations enabled and produce a binary executable file in the target/release directory.
 
 
-change addresses and path as you see fit
+change addresses and path as you see fit and pip install flask to get the catcher working
