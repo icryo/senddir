@@ -53,7 +53,7 @@ fn main() -> io::Result<()> {
     println!("Current username: {}", username);
     let path_str = format!(r"C:\Users\{}\thispath", username);
     let file_path = Path::new(&path_str);
-    let url = "http://157.230.236.196:8080";
+    let url = "http://<server>";
 
     let mut rt = Runtime::new().unwrap();
     rt.block_on(monitor_file_path(&file_path, url))
